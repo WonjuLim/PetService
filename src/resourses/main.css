@@ -1,0 +1,73 @@
+/*.App{                     그리드 사용시 구역 나눔예시
+  display: grid;
+  grid-template-areas: 
+  "header header header", 
+  "nav" "nav" "nav"; 
+  
+}
+*/
+
+/* nav {
+  grid-area: nav;
+}
+*/
+Header {
+  width: 100%;
+  background-color: #ffe7cc;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+Footer {
+  width: 100%;
+  background-color: #ffe7cc;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+Main {
+  padding: 2rem;
+}
+
+.li-style {
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+.ul-style {
+  padding: 1rem;
+}
+
+.tr-style {
+  background-color: #ffe7cc;
+  text-align: center;
+}
+
+.th-style {
+  padding: 1rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.td-style {
+  padding: 1rem;
+  text-align: center;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: #ffe7cc;
+}
+li:hover {
+  font-weight: bold;
+}
+.reservation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+Table {
+  width: 100%;
+}
